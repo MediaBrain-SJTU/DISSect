@@ -15,7 +15,7 @@ Code is implemented based on original code provided by Open CLIP from https://gi
 1. Clone the repository:
 
 ```bash
-git clone MediaBrain-SJTU/GSC
+git clone MediaBrain-SJTU/DISSect
 cd DISSect
 ```
 
