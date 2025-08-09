@@ -1,0 +1,45 @@
+# DISSect Environment Configuration
+# Copy this file to .env and modify the values according to your setup
+
+# GPU Configuration
+CUDA_VISIBLE_DEVICES=0,1,2,3
+
+# Dataset Paths (modify these to point to your data)
+CC3M_TRAIN_DATA=path/to/your/cc3m-train-{0000..0575}.tar
+CC3M_VAL_DATA=path/to/your/cc3m-validation-{0000..0015}.tar
+CC12M_TRAIN_DATA=path/to/your/cc12m-train-{0000..xxxx}.tar
+CC12M_VAL_DATA=path/to/your/cc12m-validation-{0000..xxxx}.tar
+YFCC15M_TRAIN_DATA=path/to/your/yfcc15m-train-{0000..xxxx}.tar
+YFCC15M_VAL_DATA=path/to/your/yfcc15m-validation-{0000..xxxx}.tar
+
+# Dataset Sizes
+CC3M_NUM_SAMPLES=2905954
+CC12M_NUM_SAMPLES=12423374
+YFCC15M_NUM_SAMPLES=14681591
+
+# Training Configuration
+BATCH_SIZE=1280
+LEARNING_RATE=2e-3
+EPOCHS=40
+WARMUP_STEPS=10000
+
+# Selection Strategy
+SELECT_STRATEGY=warmup_base_sampling
+SELECT_RATE=0.2
+WARMUP_POINT=10
+
+# Model Configuration
+MODEL_NAME=ViT-B-32
+PRETRAINED_MODEL=
+
+# Distributed Training
+NPROC_PER_NODE=4
+MASTER_PORT=29510
+
+# Logging
+LOG_DIR=./logs/
+EXPERIMENT_NAME=experiment_name
+REPORT_TO=tensorboard
+
+# Optional: HuggingFace endpoint (uncomment if needed)
+# HF_ENDPOINT=https://hf-mirror.com
