@@ -25,7 +25,7 @@ cd DISSect
 2. Install dependencies:
 
 ```bash
-conda create --name DISSect python=3.9
+conda create --name DISSect python==3.9
 conda activate DISSect
 pip install -r requirements.txt
 ```
