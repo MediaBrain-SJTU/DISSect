@@ -1,5 +1,8 @@
 # DISSect: Differential-informed Sample Selection Accelerates Multimodal Contrastive Learning
 
+<div align="center">   <a href="https://arxiv.org/abs/2507.12998">     <img src="https://img.shields.io/badge/arXiv-2507.12998-b31b1b" alt="arXiv">   </a>  
+  <a href="https://github.com/MediaBrain-SJTU/DISSect">     <img src="https://img.shields.io/badge/GitHub-GSC-brightgreen" alt="GitHub">   </a> </div>
+
 by Zihua Zhao, Feng Hong, Mengxi Chen, Pengyi Chen, Benyuan Liu, Jiangchao Yao, Ya Zhang, Yanfeng Wang at Cooperative Medianet Innovation Center at Shanghai Jiao Tong University, School of AI at Shanghai Jiao Tong University and Shanghai AI Laboratory. 
 
 This paper has been accepted by International Conference on Computer Vision (ICCV) 2025. This repo is the official Pytorch implementation of DISSect.
@@ -15,7 +18,7 @@ Code is implemented based on original code provided by Open CLIP from https://gi
 1. Clone the repository:
 
 ```bash
-git clone MediaBrain-SJTU/DISSect
+git clone MediaBrain-SJTU/GSC
 cd DISSect
 ```
 
