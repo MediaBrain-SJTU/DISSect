@@ -72,9 +72,9 @@ torchrun --nproc_per_node 4 src/main.py \
 
 ## 📊 Supported Selection Strategies
 
-- `small_loss`: Select samples with smallest loss
-- `big_loss`: Select samples with largest loss  
-- `clipscore`: Select samples with highest CLIP score
+- `small_loss`: Select samples with smallest contrastive loss
+- `big_loss`: Select samples with largest contrastive loss  
+- `clipscore`: Select samples with highest CLIPScore
 - `random`: Random selection
 - `historical_base_sampling`: Momentum version of DISSect
 - `warmup_base_sampling`: Warm-up version of DISSect
